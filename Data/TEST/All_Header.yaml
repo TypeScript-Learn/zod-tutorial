@@ -1,0 +1,291 @@
+General:
+  Authorization: add
+  accept-language: en-US
+  #x-device-id: uxl-voyage-e2e
+  x-request-id: invoke
+  apollographql-client-name: uxl-test
+  apollographql-client-version: "1.0"
+  x-payment-tracking-ID: "1699342563"
+  accept: multipart/mixed;deferSpec=20220824,application/graphql-response+json,application/json
+  correlation-id: invoke newThisUtil.getUUID()
+  #uxl-datasource-insight: fullRequest,fullResponse
+  #graphql-operation-signature: c33f1be3dbbef98444ae0b19f5c318db728d26266ec66de6162527eddef6232d
+SpogGeneral:
+  Authorization: add
+  accept-language: en-US
+  #x-device-id: uxl-voyage-e2e
+  x-request-id: invoke
+  apollographql-client-name: uxl-test
+  client_Id: mi-spog
+  apollographql-client-version: "1.0"
+  x-payment-tracking-ID: "1699342563"
+  accept: multipart/mixed; deferSpec=20220824, application/graphql-response+json,application/json
+  correlation-id: invoke newThisUtil.getUUID()
+  #graphql-operation-signature: c33f1be3dbbef98444ae0b19f5c318db728d26266ec66de6162527eddef6232d
+
+Empower:
+  Authorization: add authBasicTokenNonProd
+  accept-language: en-US
+  # x-device-id: uxl-voyage-e2e
+  x-request-id: invoke newThisUtil.getUUID()
+  apollographql-client-name: empower_gs
+  apollographql-client-version: "1.0"
+  #  x-associate-info: X-Billing-Code=T01BRVc=;X-Location-Code=Q0VDU1M=;rewardsId=NTYwMjg3MzQ2;consumerId=821DDEAE4A20F7E0433663E1657C23740.U1
+  #  x-agent-Id: reapp196
+  #  x-associate-info: X-Billing-Code=Q0VDQlI;X-Location-Code=Q0VDQlI;rewardsId=NTQyOTAzNDI0;consumerId=NTNFQ0ZGRUI1QjBFNzIxQkIwNzAyMkQyNTQ2NjMzNjM5LlUx
+  #  x-agent-Id: reapp567
+  # x-associate-info: X-Billing-Code=Q0VDV0w;X-Location-Code=Q0VDV0w;rewardsId=NTYwMjg3MzQ2;consumerId=ODIxRERFQUU0QTIwRjdFMDQzMzY2M0UxNjU3QzIzNzQwLlUx
+  # x-associate-info: "X-Billing-Code=Q0VDV0w;X-Location-Code=Q0VDV0w;rewardsId=NjI1NzExMjU2;consumerId=QURGNTkxMkZEMTZCRUNCNzM4OEI2MDA4MDNEODcyNzgyLlUx"
+  x-associate-info: "X-Billing-Code=Q0VDV0w;X-Location-Code=Q0VDV0w;rewardsId=NTYxNzM5MDE0;consumerId=NTNFQ0ZGRUI1QjBFNzIxQkIwNzAyMkQyNTQ2NjMzNjM5LlUx"
+  x-agent-Id: reapp103
+  client_id: AgentDesktop
+  content-type: application/json
+  accept: "*/*"
+  correlation-id: invoke newThisUtil.getUUID()
+  user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0
+
+WinningAds:
+  Authorization: add authBasicToken
+  Cookie: kndctr_664516D751E565010A490D4C_AdobeOrg_cluster=or2; kndctr_664516D751E565010A490D4C_AdobeOrg_identity=CiY4NDcwODM1ODc5MTQ1NTczNDEyMTM5Nzc5MzYxMjA3ODY1NzczOFIQCLHy5afaMhgBKgNPUjIwA%5FABoLvd598y
+  apollographql-client-name: phoenix_cobrand
+  apollographql-client-version: v1
+  content-type: application/json
+  graphql-force-safelisting: false
+  graphql-operation-name: PhoenixDCADynamicContentV2
+  graphql-operation-signature: be9eefacae4ec2de39551a690d83fb8444d501fc9adbf11fa6ed31d3b95cccc2
+  x-digitalengineering: RGInaXRhbF9Fbmd
+  x-request-id: phoenix-cobrand-0c44bd3d-5d91-4402-a2ce-8db6c73ca857
+
+GiftCards:
+  apollographql-client-name: spog
+  apollographql-client-version: 1
+  x-request-id: 123
+  correlation-id: invoke newThisUtil.getUUID()
+  Content-Type: application/json
+  Authorization: add token
+  Accept-Language: en-US
+
+ProjectDragon:
+  accept-language: zh-CN
+  x-request-id: invoke
+  apollographql-client-name: uxl-test
+  apollographql-client-version: "1.0"
+  X-Payment-Tracking-ID: "1699342563"
+  X-Privacy-Region: "CN"
+  X-Privacy-Ref-id: invoke newThisUtil.getUUID()
+  X-Privacy-Group-id: invoke newThisUtil.getUUID()
+
+EmpowerDragon:
+  Authorization: add authBasicTokenNonProd
+  accept-language: zh-CN
+  x-request-id: invoke newThisUtil.getUUID()
+  apollographql-client-name: uxl-test
+  apollographql-client-version: "1.0"
+  #  x-associate-info: X-Billing-Code=T01BRVc=;X-Location-Code=Q0VDU1M=;rewardsId=NTYwMjg3MzQ2;consumerId=821DDEAE4A20F7E0433663E1657C23740.U1
+  #  x-agent-Id: reapp196
+  #  x-associate-info: X-Billing-Code=Q0VDQlI;X-Location-Code=Q0VDQlI;rewardsId=NTQyOTAzNDI0;consumerId=NTNFQ0ZGRUI1QjBFNzIxQkIwNzAyMkQyNTQ2NjMzNjM5LlUx
+  #  x-agent-Id: reapp567
+  x-associate-info: X-Billing-Code=Q0VDV0w;X-Location-Code=Q0VDV0w;rewardsId=NTYwMjg3MzQ2;consumerId=ODIxRERFQUU0QTIwRjdFMDQzMzY2M0UxNjU3QzIzNzQwLlUx
+  x-agent-Id: reapp103
+  client_id: AgentDesktop
+  content-type: application/json
+  x-privacy-region: "CN"
+  accept: "*/*"
+  correlation-id: invoke newThisUtil.getUUID()
+  user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0
+
+EmpowerDragon_Loyalty_01:
+  Authorization: add authBasicTokenNonProd
+  accept-language: zh-CN
+  x-request-id: invoke newThisUtil.getUUID()
+  apollographql-client-name: uxl-test
+  apollographql-client-version: "1.0"
+  x-associate-info: X-Billing-Code=V0FTT1g;X-Location-Code=V0FTT1g;rewardsId=NjI2NTA5NjM0;consumerId=RjYzRTNEM0IyM0M5MjBEMkZEMkVCQUJERkU3NDlDMzc0LlUx;cris=dHJ1ZQ
+  x-agent-Id: reapp196
+  client_id: AgentDesktop
+  content-type: application/json
+  x-privacy-region: "CN"
+  accept: "*/*"
+  correlation-id: invoke newThisUtil.getUUID()
+  user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0
+
+EmpowerDragon_Loyalty_02:
+  Authorization: add authBasicTokenNonProd
+  accept-language: zh-CN
+  x-request-id: invoke newThisUtil.getUUID()
+  apollographql-client-name: uxl-test
+  apollographql-client-version: "1.0"
+  x-associate-info: X-Billing-Code=V0FTT1g;X-Location-Code=V0FTT1g;rewardsId=NjI1MTY5MjQw;consumerId=MjM1NTMxMDI4MDdBMUM2RDdFOUJDRjVDN0M4MzcyNzEwLlUx;cris=dHJ1ZQ;cris=dHJ1ZQ
+  x-agent-Id: reapp196
+  client_id: AgentDesktop
+  content-type: application/json
+  x-privacy-region: "CN"
+  accept: "*/*"
+  correlation-id: invoke newThisUtil.getUUID()
+  user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0
+
+EmpowerDragon_Loyalty_03:
+  Authorization: add authBasicTokenNonProd
+  accept-language: zh-CN
+  x-request-id: invoke newThisUtil.getUUID()
+  apollographql-client-name: uxl-test
+  apollographql-client-version: "1.0"
+  x-associate-info: test
+  x-agent-Id: reapp196
+  client_id: AgentDesktop
+  content-type: application/json
+  x-privacy-region: "CN"
+  accept: "*/*"
+  correlation-id: invoke newThisUtil.getUUID()
+  user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0
+
+CurrenciesDisplay_v2:
+  Authorization: add bearertoken
+  Accept-Language: en-US
+  apollographql-client-name: marriott_mcom
+  apollographql-client-version: "1.0"
+  content-type: application/json
+  correlation-id: invoke newThisUtil.getUUID()
+  graphql-operation-name: Benefits
+
+EmpowerQRV:
+  Authorization: add authBasicTokenNonProd
+  accept-language: en-US
+  x-request-id: invoke newThisUtil.getUUID()
+  apollographql-client-name: uxl-test
+  apollographql-client-version: "1.0"
+  x-associate-info: X-Billing-Code=T01BRVc=;X-Location-Code=Q0VDU1M=;rewardsId=NjI1NzY3MDc2;consumerId=NzkyQTQxRDI3QzRFMjNGQTU3NDRDRUE5NUE5OTNGQ0Y0LlUx
+  client_id: AgentDesktop
+  content-type: application/json
+  accept: "*/*"
+  user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0
+
+SeamlessAuth:
+  Authorization: add authtoken
+  Content-Type: application/json
+  apollographql-client-name: cv
+  apollographql-client-version: av
+  correlation-id: seamlessauth
+
+Benefits:
+  Authorization: add authBasicToken
+  accept-language: en-US
+  apollographql-client-name: test
+  apollographql-client-version: 1
+  content-type: application/json
+  correlation-id: invoke newThisUtil.getUUID()
+  graphql-operation-name: getAemContent
+  x-request-id: 123
+
+CalendarSearchMandatoryFee:
+  Authorization: add authBasicToken
+  accept-language: en-US
+  apollographql-client-name: cn
+  apollographql-client-version: cv
+  content-type: application/json
+  correlation-id: invoke newThisUtil.getUUID()
+  graphql-operation-name: calendarSearchQuery
+  accept: multipart/mixed; deferSpec=20220824, application/graphql-response+json,application/json
+  x-request-id: 123
+  uxl-feature-flags: foundcap_uxl_dtt_snc_search_calendar_search_mandatory_fees
+
+MemberBenefits:
+  Authorization: add
+  accept-language: en-US
+  apollographql-client-name: test
+  apollographql-client-version: 1
+  content-type: application/json
+  correlation-id: memberBenefit
+  uxl-feature-flags: "foundcap_uxl_dtt_member_benefit_api_version_two"
+  SourceSubsystemCode: "STAYPMS"
+  SourceSystemCode: "K"
+  client_id: hotelops_staypms"
+  accept: multipart/mixed;deferSpec=20220824,application/graphql-response+json,application/json
+  #graphql-operation-signature: c33f1be3dbbef98444ae0b19f5c318db728d26266ec66de6162527eddef6232d
+  x-request-id: 123
+
+QrvUnregister:
+  x-correlation-id: 123456789
+  client_id: mhub_batch
+  x-consumer-application: RES
+  correlation-id: 8.948191301
+
+SearchPropertyId:
+  Authorization: add authtoken
+  Content-Type: application/json
+  apollographql-client-name: cv
+  apollographql-client-version: av
+  correlation-id: SearchPropertyId
+
+CustomerByBonvoyNumber:
+  Authorization: add authtoken
+  Content-Type: application/json
+  apollographql-client-name: cv
+  apollographql-client-version: av
+  correlation-id: CustomerByBonvoyNumber
+
+CN_Client_IOS:
+  Authorization: add
+  accept-language: zh-CN
+  x-device-id: uxl-voyage-e2e
+  x-request-id: invoke
+  apollographql-client-name: cn_marriott_ios
+  apollographql-client-version: "1.0"
+  x-payment-tracking-ID: "1699342563"
+  client_id: cn_marriott_ios
+  correlation-id: invoke newThisUtil.getUUID()
+
+CN_Client_Android:
+  Authorization: add
+  accept-language: zh-CN
+  x-device-id: uxl-voyage-e2e
+  x-request-id: invoke
+  apollographql-client-name: cn_marriott_android
+  apollographql-client-version: "1.0"
+  x-payment-tracking-ID: "1699342563"
+  client_id: cn_marriott_android
+  correlation-id: invoke newThisUtil.getUUID()
+
+Production_Header:
+  Authorization: add ProdToken
+  accept-language: en-US
+  x-request-id: invoke
+  apollographql-client-name: uxl-test
+  apollographql-client-version: "1.0"
+  x-payment-tracking-ID: "1699342563"
+  client_id: uxl-test
+  correlation-id: invoke newThisUtil.getUUID()
+  graphql-operation-signature: add
+
+LCDerivedAttributes:
+  Authorization: add bearertoken
+  apollographql-client-name: uxl-test
+  apollographql-client-version: 1.0.0
+  content-type: application/json
+  correlation-id: LC_TEST_1
+  graphql-operation-name: phoenixAccountAddCustomerPreferences
+
+ProjectMangoDCA_v3:
+  Accept-Language: en-US
+  Authorization: add authBasicToken
+  Cookie: kndctr_664516D751E565010A490D4C_AdobeOrg_cluster=or2; kndctr_664516D751E565010A490D4C_AdobeOrg_identity=CiY4NDcwODM1ODc5MTQ1NTczNDEyMTM5Nzc5MzYxMjA3ODY1NzczOFIQCLHy5afaMhgBKgNPUjIwA%5FABoLvd598y
+  apollographql-client-name: PhoenixWebDynamicContentByMboxes
+  apollographql-client-version: v1
+  content-type: application/json
+  correlation-id: b2b6e3d2-e6af-47d1-ace6-df9e25cc8667
+  graphql-force-safelisting: false
+  graphql-operation-name: GetContentByMboxes
+  uxl-feature-flags: "!foundcap_uxl_rtp_use_koddi_url,foundcap_uxl_content_by_mboxes"
+  x-request-id: web-0477ed1f-1881-465d-8177-4e2e9b8b8bb6
+
+GatedOffers:
+  Authorization: add
+  accept-language: en-US
+  x-request-id: invoke
+  apollographql-client-name: uxl-test
+  apollographql-client-version: "1.0"
+  accept: multipart/mixed;deferSpec=20220824,application/graphql-response+json,application/json
+  correlation-id: invoke newThisUtil.getUUID()
+  Cookie: kndctr_664516D751E565010A490D4C_AdobeOrg_identity=CiYyNDAzNTUxMTQ4MzczOTg1OTM3MjUxODc5ODE1NjI4NDE3MzM4OVISCJmOwd3JMxABGAEqA1ZBNjAA8AHz1sqE0jM=; kndctr_664516D751E565010A490D4C_AdobeOrg_cluster=or2
+
+

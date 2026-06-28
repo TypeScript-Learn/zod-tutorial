@@ -1,0 +1,12 @@
+General:
+  Authorization: add
+  accept-language: zh-CN
+  #x-device-id: uxl-voyage-e2e
+  x-request-id: invoke
+  apollographql-client-name: uxl-test01
+  apollographql-client-version: "1.0"
+  x-payment-tracking-ID: "1699342563"
+  accept: multipart/mixed;deferSpec=20220824,application/graphql-response+json,application/json
+  correlation-id: invoke newThisUtil.getUUID()
+  #uxl-datasource-insight: fullRequest,fullResponse
+  #graphql-operation-signature: c33f1be3dbbef98444ae0b19f5c318db728d26266ec66de6162527eddef6232d

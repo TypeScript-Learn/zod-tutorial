@@ -1,0 +1,20 @@
+Trip_Property:
+  QA:
+    DPO-79711:
+      propertyId: "PDXOX"
+    DPO-79712:
+      propertyId: "MCOAK"
+    DPO-79713:
+      propertyId: "MCOAK"
+    DPO-79801:
+      propertyId: "CFULC"
+    DPO-79799:
+      propertyId: "CUNPC"
+    DPO-79853:
+      propertyId: "NYCMQ"
+    DPO-79855:
+      propertyId: "MCODK"
+    DPO-80071:
+      propertyId: "NYCMQ"
+    DPO-81745:
+      propertyId: "NYC@Q"

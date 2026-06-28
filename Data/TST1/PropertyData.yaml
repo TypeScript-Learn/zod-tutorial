@@ -1,0 +1,33 @@
+
+Trip_Property:
+  QA:
+    DPO-80380:
+      propertyId: "NYCMQ"
+    DPO-80381:
+      propertyId: "NYCMQ"
+    DPO-81440:
+      propertyId: "AUSSH"
+    DPO-80383:
+      propertyId: "DALTX"
+    DPO-80384:
+      propertyId: "STLMY"
+    DPO-80385:
+      propertyId: "YULAC"
+    DPO-80386:
+      propertyId: "NYCMQ"
+    DPO-80387:
+      propertyId: "CUNPC"
+    DPO-80388:
+      propertyId: "DALAF"
+    DPO-80390:
+      propertyId: "SSHSI"
+    DPO-80392:
+      propertyId: "NYCMQ"
+    DPO-80391:
+      propertyId: "CUNPC"
+    DPO-80987:
+      propertyId: "NYCMQ"
+    DPO-81462:
+      propertyId: "SFOLC"
+    DPO-80382:
+      propertyId: "SSHSI"
